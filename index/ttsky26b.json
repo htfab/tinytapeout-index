@@ -3,12 +3,12 @@
   "id": "ttsky26b",
   "name": "Tiny Tapeout SKY 26b",
   "repo": "https://github.com/TinyTapeout/tinytapeout-sky-26b",
-  "commit": "8f9ca75e2ba8a00070ad1ffa5cb81654e4c40312",
-  "updated": "2026-05-20T06:23:52Z",
+  "commit": "4596666d90b1617e07e04dc1240807d1d9a8f869",
+  "updated": "2026-06-13T06:12:56Z",
   "projects": [
     {
       "macro": "tt_um_27jorge05_crc_fifo",
-      "address": 557,
+      "address": 462,
       "title": "IEEE CRC_FIFO: CRC-32 Engine with 8-Byte FIFO and VGA Displa",
       "author": "Jorge Luis Chuquimia Parra",
       "description": "Hardware CRC-32 engine (IEEE 802.3, 0xEDB88320) with 8-byte FIFO, 1-bit-per-cycle serial processing, bidirectional register read interface, interrupt output, and real-time VGA display showing FIFO occupancy bar, FSM state, and all 32 CRC bits across two grid rows. Single clock domain.\n",
@@ -84,7 +84,7 @@
     },
     {
       "macro": "tt_um_5tOTA",
-      "address": 267,
+      "address": 524,
       "title": "Operational Transconductance Amplifier",
       "author": "Santino pasquale",
       "description": "Outputs current porportional to input voltage",
@@ -133,7 +133,7 @@
     },
     {
       "macro": "tt_um_8_bit_cpu",
-      "address": 936,
+      "address": 940,
       "title": "CPU 8 bits",
       "author": "Nano CNMN IPN",
       "description": "An 8-bit CPU that performs instructions such as arithmetic and load instructions, and outputs the result of each instruction.",
@@ -171,7 +171,7 @@
     },
     {
       "macro": "tt_um_ALU_Porca",
-      "address": 712,
+      "address": 708,
       "title": "Onchip-UIS 8-bit ALU with Status Flags",
       "author": "Nicolas Orcasitas",
       "description": "A 8-bit ALU with registered inputs, 8 arithmetic/logic operations, and 8 configurable status flags.",
@@ -209,7 +209,7 @@
     },
     {
       "macro": "tt_um_AlephNaNsea_decentvgachipIEEEIESIPSPH",
-      "address": 579,
+      "address": 672,
       "title": "Galvantronix, DLSU, and me!",
       "author": "Chico Andre G. Olaguer",
       "description": "VGA chip that features DLSU animations, Hilbert Curves, Mazes, and the Galvantronix Logo.",
@@ -247,7 +247,7 @@
     },
     {
       "macro": "tt_um_AlephNaNsea_space_time_waves_and_filaments",
-      "address": 426,
+      "address": 430,
       "title": "Space-Time Waves and Filaments",
       "author": "AlephNaNsea",
       "description": "A generative VGA hardware video synthesizer featuring cosmic webs, rolling ocean waves, and fractal patterns.",
@@ -285,7 +285,7 @@
     },
     {
       "macro": "tt_um_BFD100_Logic",
-      "address": 424,
+      "address": 428,
       "title": "BDF1000 Line folower",
       "author": "Belkacem BENADDA",
       "description": "a logic circuit and PI controler for the BFD1000 Line follower sensor dedicated to tinytapout SKY26a",
@@ -323,7 +323,7 @@
     },
     {
       "macro": "tt_um_BillNace_SumItUp",
-      "address": 942,
+      "address": 77,
       "title": "SumItUp Hardware Thread (18-341)",
       "author": "Bill Nace",
       "description": "Implementation of the SumItUp thread from CMU's 18-341 course.",
@@ -412,7 +412,7 @@
     },
     {
       "macro": "tt_um_CFG_WDT",
-      "address": 781,
+      "address": 878,
       "title": "IEEE Configurable WDT",
       "author": "Dat Dinh Trong",
       "description": "A configurable WDT 32 bit ",
@@ -488,7 +488,7 @@
     },
     {
       "macro": "tt_um_DlynchR_spi_display",
-      "address": 11,
+      "address": 15,
       "title": "tt_um_DlynchR_spi_display",
       "author": "Denzel",
       "description": "SPI slave -> 3-digit 7-segment display",
@@ -526,7 +526,7 @@
     },
     {
       "macro": "tt_um_Edward2005lol_Slot_Machine_Top",
-      "address": 288,
+      "address": 292,
       "title": "Slot Machine",
       "author": "Edward Lei",
       "description": "Spins 3 slots",
@@ -564,7 +564,7 @@
     },
     {
       "macro": "tt_um_Floppy_LIGHT",
-      "address": 422,
+      "address": 426,
       "title": "Floppy LIGHT",
       "author": "Absygen",
       "description": "Floppy bird with logo LIGHT",
@@ -602,7 +602,7 @@
     },
     {
       "macro": "tt_um_Halcy0nnnn",
-      "address": 904,
+      "address": 908,
       "title": "IEEE_MMU_Cybertron_Logo",
       "author": "Au Kai Zhe, Lim Zing",
       "description": "Display the logo of MMU Cybertron using VGA",
@@ -640,7 +640,7 @@
     },
     {
       "macro": "tt_um_Halcy0nnnn_1",
-      "address": 938,
+      "address": 942,
       "title": "IEEE_MMU_Logo",
       "author": "Au Kai Zhe, Lim Zing",
       "description": "Display the logo of Multimedia University (MMU) with VGA",
@@ -678,7 +678,7 @@
     },
     {
       "macro": "tt_um_IEEE_OpenSilicon_SubmissionCredits",
-      "address": 581,
+      "address": 577,
       "title": "Open Silicon 2026: SKY26a Submission - Chapter Logo",
       "author": "IEEE IES-IPS Philippine Chapter",
       "description": "Submission #1 to the SKY26a shuttle for Open Silicon workshop",
@@ -716,7 +716,7 @@
     },
     {
       "macro": "tt_um_IEEE_perceptron",
-      "address": 172,
+      "address": 847,
       "title": "1-bit Perceptron - Hardware Neuron",
       "author": "Jacob Kirera",
       "description": "A single artificial neuron (perceptron) implemented in pure combinational logic. Four binary inputs are each multiplied by a 2-bit weight, summed in an adder tree, and compared to a configurable threshold. The neuron fires (output = 1) when the weighted sum meets or exceeds the threshold.This is the fundamental building block of every neural network \u2014 on real silicon. Weights and threshold are set live via input pins, making it fully reconfigurable without re-synthesis.",
@@ -754,7 +754,7 @@
     },
     {
       "macro": "tt_um_KK_VGA01",
-      "address": 67,
+      "address": 3,
       "title": "KK Zuzel Motocross IEEE",
       "author": "Krzysztof Kluczek",
       "description": "A motor track racing game for up to 4 players, each using only one button.",
@@ -792,7 +792,7 @@
     },
     {
       "macro": "tt_um_LAT",
-      "address": 812,
+      "address": 207,
       "title": "Automation Laboratory Logo with author Image",
       "author": "Belkacem BENADDA",
       "description": "Use the VGA interface to display either the laboratory Logo or the Author Image",
@@ -877,7 +877,7 @@
     },
     {
       "macro": "tt_um_Medidor_Jitter",
-      "address": 974,
+      "address": 970,
       "title": "Jitter Metrics & Pulse Analyzer",
       "author": "Gustavo Ismael Chavez Mamani",
       "description": "High-speed Jitter measurement tool with UART interface and hardware gating",
@@ -915,7 +915,7 @@
     },
     {
       "macro": "tt_um_Mitchell_s_Approximation_based_EML",
-      "address": 583,
+      "address": 579,
       "title": "IEEE Mitchell-s_Approximation_based_EML",
       "author": "Boussaa Youcef, Korichi Aymene, Bouyahiaoui Hadjer",
       "description": "Multiplier-less EML gate using Mitchell\u2019s approximation for energy-efficient transcendental processing in ASICs.",
@@ -953,7 +953,7 @@
     },
     {
       "macro": "tt_um_NUPlace2",
-      "address": 928,
+      "address": 932,
       "title": "VAK FSM",
       "author": "Sam Weber",
       "description": "The FSM for the VAK lab at Northwestern",
@@ -991,7 +991,7 @@
     },
     {
       "macro": "tt_um_Nay0805_detector_de_patrones_generados_aleatoreamente",
-      "address": 13,
+      "address": 416,
       "title": "tt_um_Nay0805_detector_de_patrones_generados_aleatoreamente",
       "author": "NK",
       "description": "comparador",
@@ -1029,7 +1029,7 @@
     },
     {
       "macro": "tt_um_Onchip_Freq_Divider_Dig",
-      "address": 130,
+      "address": 134,
       "title": "Onchip-UIS CLK Frequency Divider",
       "author": "Ramon Sarmiento",
       "description": "Generates several frequency clock signals from a user-selected M module",
@@ -1067,7 +1067,7 @@
     },
     {
       "macro": "tt_um_Onchip_TrafficLight",
-      "address": 551,
+      "address": 555,
       "title": "Onchip-UIS Traffic Light",
       "author": "Jorge Eduardo Angarita P\u00e9rez",
       "description": "Traffic light control",
@@ -1152,7 +1152,7 @@
     },
     {
       "macro": "tt_um_Onchip_adder_NM",
-      "address": 134,
+      "address": 138,
       "title": "Onchip-UIS 4-bit Ripple Carry Adder",
       "author": "Nestor Matajira",
       "description": "A structural 4-bit Ripple Carry Adder using half and full adders.",
@@ -1241,7 +1241,7 @@
     },
     {
       "macro": "tt_um_RaphRaphyRofl_VerilogIEEEBounce",
-      "address": 674,
+      "address": 678,
       "title": "IEEE Letters Screensaver",
       "author": "Raphael Garcia",
       "description": "IEEE Letters Screensaver for VGA. Code made using Gemini",
@@ -1279,7 +1279,7 @@
     },
     {
       "macro": "tt_um_Richard_Tarqui_contador_uart_simple",
-      "address": 686,
+      "address": 333,
       "title": "UART - Controlled Frecuency Meter &  Timer - IEEE",
       "author": "Richard Alfredo Tarqui Mamani & Gustavo Ismael Chavez Mamani",
       "description": "Frequency meter, pulse counter, and programmable timer controlled via UART at 115200 baud.",
@@ -1317,7 +1317,7 @@
     },
     {
       "macro": "tt_um_STDCELL_LDO",
-      "address": 524,
+      "address": 526,
       "title": "STDCELL_LDO",
       "author": "ABNER JOSE PARRA HERNANDEZ",
       "description": "LOW DROPOUT VOLTAGE REGULATOR",
@@ -1366,7 +1366,7 @@
     },
     {
       "macro": "tt_um_SollysLe_mac_8bits",
-      "address": 577,
+      "address": 674,
       "title": "8-bit Multiply-Accumulate (MAC) with 2-Cycle Serial Interface",
       "author": "L\u00ea H\u1ed3ng Ph\u00fac",
       "description": "An 8\u00d78\u219216-bit multiply-accumulate unit with 2-cycle 8-bit serial interface, supporting signed/unsigned operations with overflow detection and clear functionality",
@@ -1404,7 +1404,7 @@
     },
     {
       "macro": "tt_um_abhinavputhran_raycast",
-      "address": 482,
+      "address": 515,
       "title": "raycaster",
       "author": "Abhinav Puthran",
       "description": "Wolfenstein-style raycaster 3D maze rendering in 640x480 VGA at 25MH",
@@ -1489,7 +1489,7 @@
     },
     {
       "macro": "tt_um_advaittej_stopwatch",
-      "address": 908,
+      "address": 1006,
       "title": "V-SPACE Demo: Command & Control Chronograph",
       "author": "Advaittej",
       "description": "Interactive 1Hz stopwatch with hardware debouncing, lap memory, alarm target, and 9600-baud UART RX/TX telemetry.",
@@ -1527,7 +1527,7 @@
     },
     {
       "macro": "tt_um_advun",
-      "address": 1002,
+      "address": 998,
       "title": "tinyWorkshop",
       "author": "advun",
       "description": "Compresses trace data in one clock cycle through simple and space efficient compression algorithm",
@@ -1565,7 +1565,7 @@
     },
     {
       "macro": "tt_um_aelobo",
-      "address": 137,
+      "address": 141,
       "title": "TinyPomodoro",
       "author": "Amelia Lobo",
       "description": "Pomodoro Timer and Date & Time Clock",
@@ -1603,7 +1603,7 @@
     },
     {
       "macro": "tt_um_akim_tinydma",
-      "address": 292,
+      "address": 296,
       "title": "TinyDMA-2C",
       "author": "Andrew Kim",
       "description": "Two-channel byte DMA engine using external SPI PSRAM",
@@ -1641,7 +1641,7 @@
     },
     {
       "macro": "tt_um_alu7b",
-      "address": 428,
+      "address": 591,
       "title": "IEEE 7-bit ALU - Serial Input / Parallel Output",
       "author": "Sharif Obando",
       "description": "7-bit ALU with LSB-first serial input and 8-bit parallel output. Supports ADD, AND, OR, XOR and SUB. Protocol: 7 bits operand A + 7 bits operand B per clock edge (14 rising edges total). The opcode op[2:0] is a stable parallel input on ui_in[3:1]. Done signal on uio[0] pulses high for exactly one clock cycle to indicate end of operation.\n",
@@ -1679,7 +1679,7 @@
     },
     {
       "macro": "tt_um_alu8bit",
-      "address": 458,
+      "address": 454,
       "title": "8-bit Tiny ALU",
       "author": "Joseph Santhosh",
       "description": "8-bit arithmetic logic unit supporting arithmetic, logic, and shift operations with status flags.",
@@ -1717,7 +1717,7 @@
     },
     {
       "macro": "tt_um_alu_7bits",
-      "address": 710,
+      "address": 706,
       "title": "ALU 7 Bits",
       "author": "Miguel Angel Tob\u00f3n Morales",
       "description": "Unidad aritm\u00e9tico-l\u00f3gica (ALU) de 7 bits que trabaja de forma secuencial con entrada serial y salida paralela.",
@@ -1755,7 +1755,7 @@
     },
     {
       "macro": "tt_um_amarjay",
-      "address": 771,
+      "address": 775,
       "title": "mini_cpu",
       "author": "amarjay",
       "description": "a minimal 8-bit accumulator-based processor",
@@ -1793,7 +1793,7 @@
     },
     {
       "macro": "tt_um_amin_hong_ooo_cpu",
-      "address": 143,
+      "address": 290,
       "title": "tiny OoO CPU",
       "author": "Amin Hong",
       "description": "Small out-of-order CPU with instruction queue, RAT, ROB, and reservation stations",
@@ -1925,7 +1925,7 @@
     },
     {
       "macro": "tt_um_arfanghani_design1_top",
-      "address": 333,
+      "address": 329,
       "title": "Water Quality Classifier Core",
       "author": "AG1 - Ghani Lab - Emirates Chips Competence",
       "description": "Low-cost ASIC for water quality classification using signal behavior analysis",
@@ -1963,7 +1963,7 @@
     },
     {
       "macro": "tt_um_arfanghani_design2_top",
-      "address": 329,
+      "address": 325,
       "title": "Multi-Mode Sensor Signal Processor",
       "author": "AG1- Ghani Lab - Emirates Chip Competence",
       "description": "A multi-mode digital signal processing unit supporting filtering, accumulation, edge detection, and nonlinear transformation.",
@@ -2001,7 +2001,7 @@
     },
     {
       "macro": "tt_um_arfanghani_design3_top",
-      "address": 331,
+      "address": 327,
       "title": "Heat Stress Alert ASIC",
       "author": "AG3-Ghani Lab -Emirates Chip Competence",
       "description": "Low-cost digital heat stress detection system using pulse-based input for wearable or environmental monitoring",
@@ -2039,7 +2039,7 @@
     },
     {
       "macro": "tt_um_array_mult_vga",
-      "address": 808,
+      "address": 812,
       "title": "4x4 Array Multiplier with VGA Visualization",
       "author": "Carlos Acevedo, Brock Fuller, Akshat Verma, Vance Vojslavek, Hira Memon, Ezenwa Opara, Erik Rodriguez, Samiya Qasmi, Sahil Najmal, Matthew Hodges",
       "description": "A structural 4\u00d74 array multiplier using 12 full adders that displays the input operands and the resulting 8-bit product as a decimal equation on a 640\u00d7480 VGA monitor through the Tiny VGA PMOD. The designers\u2019 initials and the Purdue Fort Wayne mascot, the mastodon, are also shown on the display. Inputs are provided through bare solder pads for direct cable connections.",
@@ -2115,7 +2115,7 @@
     },
     {
       "macro": "tt_um_authQV",
-      "address": 839,
+      "address": 835,
       "title": "authQV RISC-V CPU",
       "author": "ktsoupos",
       "description": "QSPI flash/RAM memory controller for the authQV RISC-V CPU. The CPU itself runs on a companion FPGA; this die exposes the mem_ctrl interface over a 16-phase 8-bit parallel bus.",
@@ -2153,7 +2153,7 @@
     },
     {
       "macro": "tt_um_auth_dmac",
-      "address": 845,
+      "address": 841,
       "title": "AUTh DMA Controller",
       "author": "Spyridon Vasileiou, Zafeirios Giapoutzis, Athanasios Karatzas, Zisis Katsaros, Kiriakos Kokkinos",
       "description": "8-bit DMA Controller for transferring data between memory and I/O device",
@@ -2191,7 +2191,7 @@
     },
     {
       "macro": "tt_um_baby_cpu",
-      "address": 902,
+      "address": 906,
       "title": "Baby CPU",
       "author": "Ripunjay Singh, Alok Kumar Kamal",
       "description": "A small 8-bit CPU with 16-byte ROM/RAM and simple accumulator architecture",
@@ -2229,7 +2229,7 @@
     },
     {
       "macro": "tt_um_bad_apple",
-      "address": 454,
+      "address": 450,
       "title": "test",
       "author": "brendtam",
       "description": "does something",
@@ -2267,7 +2267,7 @@
     },
     {
       "macro": "tt_um_bartu_kripto",
-      "address": 833,
+      "address": 771,
       "title": "Tiny Crypto Core",
       "author": "Bartu Abdioglu",
       "description": "Lightweight 64-bit symmetric encryption/decryption demo core",
@@ -2305,7 +2305,7 @@
     },
     {
       "macro": "tt_um_basic8",
-      "address": 131,
+      "address": 135,
       "title": "Basic8 CPU",
       "author": "SalihOmerOngun",
       "description": "8-bit minimal CPU with 8 registers, ALU, branches and JAL",
@@ -2343,7 +2343,7 @@
     },
     {
       "macro": "tt_um_basic_na",
-      "address": 783,
+      "address": 876,
       "title": "basic_national_anthem_buzzer",
       "author": "Eren Ka\u00e7maz",
       "description": "Plays the Turkish National Anthem as a square-wave melody on a piezo buzzer",
@@ -2381,7 +2381,7 @@
     },
     {
       "macro": "tt_um_bfloat16",
-      "address": 964,
+      "address": 960,
       "title": "IEEE bfloat16_accelerator",
       "author": "Jorge I. Marin",
       "description": "SPI accelerator for continuous bfloat16 operations (SUM/SUB/MPY)",
@@ -2465,7 +2465,7 @@
     },
     {
       "macro": "tt_um_blackjack",
-      "address": 769,
+      "address": 773,
       "title": "ttsky-blackjack",
       "author": "Arma\u011fan Bi",
       "description": "Blackjack card game with hit/stand buttons, 7-segment display for sums, and win/lose/push LEDs",
@@ -2503,7 +2503,7 @@
     },
     {
       "macro": "tt_um_bleeptrack_cc2",
-      "address": 707,
+      "address": 42,
       "title": "Recursive Rectangles",
       "author": "bleeptrack",
       "description": "generative pattern creatures using silicon cross stitch",
@@ -2541,7 +2541,7 @@
     },
     {
       "macro": "tt_um_bn_lif_evan",
-      "address": 1000,
+      "address": 996,
       "title": "Bernoulli Stochastic Multiplier + LIF Neuron",
       "author": "Evan Smith",
       "description": "Multiplies two 4-bit values via Bernoulli streams with conventional multiplier comparison; LIF neuron on same tile",
@@ -2579,7 +2579,7 @@
     },
     {
       "macro": "tt_um_bytex64_wave_hi",
-      "address": 970,
+      "address": 966,
       "title": "wave_hi",
       "author": "bytex64",
       "description": "I didn't have time to make something good, so I thought I'd send you a wave.",
@@ -2664,7 +2664,7 @@
     },
     {
       "macro": "tt_um_c4m_legacyspsram_direct",
-      "address": 43,
+      "address": 47,
       "title": "TTSKY-SPSRAM-legacy-direct",
       "author": "Staf Verhaegen",
       "description": "Sky130 single port SRAM with pins connected directly to TT tile pins and legacy layout bit cell.",
@@ -2752,7 +2752,7 @@
     },
     {
       "macro": "tt_um_c4m_spsram_direct_librelane",
-      "address": 815,
+      "address": 204,
       "title": "TTSKY-SPSRAM-direct-librelane",
       "author": "Staf Verhaegen",
       "description": "Sky130 single port SRAM with pins connected directly to TT tile pins using librelane.",
@@ -2834,7 +2834,7 @@
     },
     {
       "macro": "tt_um_catalinlazar_adpll_125m_sky130",
-      "address": 202,
+      "address": 198,
       "title": "127-stage Coarse-Tapped ADPLL",
       "author": "Catalin Lazar",
       "description": "A lower-frequency All-Digital PLL featuring a 127-stage tapped structural ring oscillator targeting 125MHz midpoint locking loops on SkyWater 130nm.",
@@ -2872,7 +2872,7 @@
     },
     {
       "macro": "tt_um_ccollatz_SO",
-      "address": 545,
+      "address": 549,
       "title": "Onchip-UIS Collatz Conjecture",
       "author": "Sergio Sebastian Oliveros Sepulveda",
       "description": "A circuit that computes the Collatz orbit",
@@ -2910,7 +2910,7 @@
     },
     {
       "macro": "tt_um_chaotic_rng",
-      "address": 460,
+      "address": 456,
       "title": "C0haotic RNG",
       "author": "onrkrts",
       "description": "Programmable chaotic random number generator based on a 3D chaotic map",
@@ -2986,7 +2986,7 @@
     },
     {
       "macro": "tt_um_chronoINAAL",
-      "address": 37,
+      "address": 41,
       "title": "Digital Stopwatch with LAP mode",
       "author": "Nano CNMN IPN",
       "description": "Digital stopwatch in Verilog with Start/Stop and Lap functions, showing hundredths and seconds on a multiplexed 7-segment display.",
@@ -3024,7 +3024,7 @@
     },
     {
       "macro": "tt_um_coffee_chip",
-      "address": 591,
+      "address": 587,
       "title": "IEEEcoffee_chip",
       "author": "Juan Pablo Tabares Cardona",
       "description": "El Coffee Chip es un sistema de clasificaci\u00f3n de granos de caf\u00e9 implementado directamente en silicio (ASIC) mediante el proceso de fabricaci\u00f3n TinyTapeout (Sky130). El dise\u00f1o utiliza l\u00f3gica digital de alta velocidad para procesar se\u00f1ales de frecuencia provenientes de un sensor de color (como el TCS3200), permitiendo categorizar granos en tres estados: Inmaduro, \u00d3ptimo y Pasado.",
@@ -3062,7 +3062,7 @@
     },
     {
       "macro": "tt_um_cordic_ieee",
-      "address": 325,
+      "address": 321,
       "title": "Cordic-based Math processor-IEEE",
       "author": "Subir Maity, Jitendra Kr. Das",
       "description": "CORDIC Implementation of Sine and Cosine function",
@@ -3150,7 +3150,7 @@
     },
     {
       "macro": "tt_um_cycho",
-      "address": 874,
+      "address": 870,
       "title": "Mini Memory Controller",
       "author": "Corin Cho",
       "description": "Designed a fake memory controller featuring request queuing, bank-row-column address decoding, and fake memory to simulate DRAM read/write behavior.",
@@ -3188,7 +3188,7 @@
     },
     {
       "macro": "tt_um_d_4_array_multiplier",
-      "address": 867,
+      "address": 801,
       "title": "3020 Test Repo 4x4 Array Multiplier",
       "author": "Trent Reuben",
       "description": "Performs a 4x4 structural array multiplier using fulladders",
@@ -3226,7 +3226,7 @@
     },
     {
       "macro": "tt_um_datdt_charizard",
-      "address": 804,
+      "address": 808,
       "title": "IEEE VGA Charizard Flamethrower",
       "author": "Dat Dinh Trong",
       "description": "Displays the Charizard on VGA with a flamethrower animation!",
@@ -3264,7 +3264,7 @@
     },
     {
       "macro": "tt_um_datiuemm",
-      "address": 129,
+      "address": 133,
       "title": "IEEE MBIST & ECC for RAM 8x32",
       "author": "Dat Dinh Trong",
       "description": "This is MBIST and ECC on 8x32 data RAM",
@@ -3302,7 +3302,7 @@
     },
     {
       "macro": "tt_um_db_PWM",
-      "address": 547,
+      "address": 551,
       "title": "Onchip-UIS PWM Generator ",
       "author": "Daniel Barrios",
       "description": "Generates a PWM signal with a duty cycle that can be varied with inputs pins",
@@ -3340,7 +3340,7 @@
     },
     {
       "macro": "tt_um_dco",
-      "address": 585,
+      "address": 581,
       "title": "Digitally Controlled Oscillator",
       "author": "Sollys Le - PVC",
       "description": "The digitally controlled oscillator (DCO) generates a frequency-adjustable clock signal based on an 8-bit control input.",
@@ -3378,7 +3378,7 @@
     },
     {
       "macro": "tt_um_dean_foulds_ai_accelerator",
-      "address": 898,
+      "address": 902,
       "title": "Systolic Binary Neural Network Accelerator",
       "author": "Dean Foulds",
       "description": "V2 systolic 16-neuron BNN accelerator. XNOR dot product engine, hardware feature expansion, signed bias, balanced popcount tree. 8-cycle systolic compute reuses hardware for smaller silicon footprint.",
@@ -3416,7 +3416,7 @@
     },
     {
       "macro": "tt_um_devil_nyancat",
-      "address": 802,
+      "address": 806,
       "title": "IEEE Devil Nyan Cat VGA",
       "author": "Daniel Garc\u00eda",
       "description": "VGA Nyan Cat with synchronized audio and a real-time color mutation toggle (Devil Mode).",
@@ -3454,7 +3454,7 @@
     },
     {
       "macro": "tt_um_digit_serial_divider",
-      "address": 204,
+      "address": 200,
       "title": "IEEE | 24-Bit Serial Fixed-Point Binary Divider",
       "author": "Miguel Angel Tob\u00f3n Morales",
       "description": "Serial divider implemented in Verilog for 24-bit fixed-point numbers with 23 fractional bits, capable of performing normalized binary divisions within an approximate range of 0 to 1.9999999.",
@@ -3492,7 +3492,7 @@
     },
     {
       "macro": "tt_um_digitalclock",
-      "address": 682,
+      "address": 686,
       "title": "Digital Clock!",
       "author": "Alexander Co Abad",
       "description": "Digital Clock",
@@ -3530,7 +3530,7 @@
     },
     {
       "macro": "tt_um_dma_multi_channel",
-      "address": 940,
+      "address": 79,
       "title": "dma_multi_channel",
       "author": "Sharanya",
       "description": "Design of a Tiny DMA controller for memory to memory copy",
@@ -3568,7 +3568,7 @@
     },
     {
       "macro": "tt_um_dsp_top",
-      "address": 168,
+      "address": 172,
       "title": "Configurable 8-bit Streaming DSP Core",
       "author": "Logic Loopers",
       "description": "A 4-mode streaming DSP core implementing 4-tap FIR and IIR filtering with dynamic scaling and saturation protection.",
@@ -3605,58 +3605,8 @@
       }
     },
     {
-      "macro": "tt_um_ece298A_analog_r4",
-      "address": 227,
-      "title": "ECE298A analog tile",
-      "author": "jrl",
-      "description": "analog workflow",
-      "clock_hz": 0,
-      "tiles": "1x2",
-      "analog_pins": [
-        0,
-        4,
-        1,
-        3,
-        2
-      ],
-      "repo": "https://github.com/jayrel053/jayrel053_ttsky26a_analog",
-      "commit": "7d0eb7f047b0a93a40f964ac1378c0dde60f4ba7",
-      "pinout": {
-        "ui[0]": "in_0",
-        "ui[1]": "in_1",
-        "ui[2]": "in_2",
-        "ui[3]": "in_3",
-        "ui[4]": "in_4",
-        "ui[5]": "in_5",
-        "ui[6]": "in_6",
-        "ui[7]": "in_7",
-        "uo[0]": "out_0",
-        "uo[1]": "out_1",
-        "uo[2]": "out_2",
-        "uo[3]": "out_3",
-        "uo[4]": "out_4",
-        "uo[5]": "out_5",
-        "uo[6]": "out_6",
-        "uo[7]": "out_7",
-        "uio[0]": "io_0",
-        "uio[1]": "io_1",
-        "uio[2]": "io_2",
-        "uio[3]": "io_3",
-        "uio[4]": "io_4",
-        "uio[5]": "io_5",
-        "uio[6]": "io_6",
-        "uio[7]": "io_7",
-        "ua[0]": "a_0",
-        "ua[1]": "a_1",
-        "ua[2]": "a_2",
-        "ua[3]": "a_3",
-        "ua[4]": "a_4",
-        "ua[5]": ""
-      }
-    },
-    {
       "macro": "tt_um_eml_gate",
-      "address": 205,
+      "address": 201,
       "title": "IEE EML Gate",
       "author": "Taouinar Abdelbasset & Sidahmed Hamdad",
       "description": "Q6.14 fixed-point EML operator eml(x,y)=exp(x)-ln(y) with SPI interface",
@@ -3694,7 +3644,7 @@
     },
     {
       "macro": "tt_um_enjimneering_bss_uart",
-      "address": 807,
+      "address": 811,
       "title": "BSS UART",
       "author": "James Ashie Kotey, Kreesha Ramachandran, Kwashie Andoh, SHaRC",
       "description": "SHaRC Byte-Sized Serial UART IP Test Chip ",
@@ -3732,7 +3682,7 @@
     },
     {
       "macro": "tt_um_enjimneering_spi_mem",
-      "address": 128,
+      "address": 132,
       "title": "SPI Memory Test",
       "author": "James Ashie Kotey",
       "description": "SPI RAM reader with VGA timing output",
@@ -3770,7 +3720,7 @@
     },
     {
       "macro": "tt_um_enrico_glr",
-      "address": 194,
+      "address": 128,
       "title": "Secret Guessing Game",
       "author": "Enrico Goller",
       "description": "Guessing a password which can be set new for each game",
@@ -3808,14 +3758,14 @@
     },
     {
       "macro": "tt_um_er_ring_osc",
-      "address": 515,
+      "address": 772,
       "title": "Simple Ring Oscillator",
       "author": "ER",
       "description": "Ring Oscillator Tryout",
       "clock_hz": 0,
       "tiles": "1x2",
       "analog_pins": [
-        11
+        10
       ],
       "repo": "https://github.com/erijnbeek/tt_ring_osc",
       "commit": "87c9bb6e5a02e696b958c9936c75e0cc602dfeed",
@@ -3854,7 +3804,7 @@
     },
     {
       "macro": "tt_um_eric_lcc",
-      "address": 770,
+      "address": 482,
       "title": "Tiny_Tapeout_Launch_Controller",
       "author": "Eric Pearson",
       "description": "Launch control chip",
@@ -3892,7 +3842,7 @@
     },
     {
       "macro": "tt_um_erika24",
-      "address": 135,
+      "address": 139,
       "title": "TinyFarm",
       "author": "Erika Ramirez",
       "description": "18644 Final Project",
@@ -4006,7 +3956,7 @@
     },
     {
       "macro": "tt_um_fidel_makatia_digital_tapeout",
-      "address": 193,
+      "address": 131,
       "title": "8-bit Accumulator CPU SoC",
       "author": "Fidel Makatia",
       "description": "8-bit accumulator microcontroller with 33-instruction ISA, 32-word ROM, 32-byte RAM, hardware stack, UART TX, and timer/counter",
@@ -4044,7 +3994,7 @@
     },
     {
       "macro": "tt_um_flappy_vga_Akul18",
-      "address": 141,
+      "address": 288,
       "title": "Flappy VGA",
       "author": "Akul Singh",
       "description": "A TinyTapeout implementation of a simple Flappy Bird-style VGA game with button inputs and RGB/sync outputs.",
@@ -4132,7 +4082,7 @@
     },
     {
       "macro": "tt_um_galois_lfsr16",
-      "address": 323,
+      "address": 160,
       "title": "16 bit Galois LFSR based Random number generator-IEEE",
       "author": "Subir Maity, Jitendra Kr. Das",
       "description": "Random no generator using LFSR with user selectable 32 different polynomial",
@@ -4170,7 +4120,7 @@
     },
     {
       "macro": "tt_um_garage_project",
-      "address": 777,
+      "address": 781,
       "title": "IEEE_UPP_Garage unit control",
       "author": "Sadrac Santiago, Carlos Romero and Martin Amastal",
       "description": "Sistema de control para controlar apertura, cierre y paro de un garage con un solo bot\u00f3n",
@@ -4208,7 +4158,7 @@
     },
     {
       "macro": "tt_um_gen_onda",
-      "address": 335,
+      "address": 331,
       "title": "DDS Waveform Generator - IEEE",
       "author": "Daniel Roberto Garcia Miranda",
       "description": "Programmable DDS waveform generator with multiple waveforms, frequency and amplitude control",
@@ -4284,7 +4234,7 @@
     },
     {
       "macro": "tt_um_gitragi_rng",
-      "address": 196,
+      "address": 192,
       "title": "Logic-Locked 5-Bit RNGy",
       "author": "Ragib",
       "description": "A 5-bit LFSR-based random number generator with key-based logic locking, bounded output, and a 7-segment display for the rightmost decimal digit.",
@@ -4322,7 +4272,7 @@
     },
     {
       "macro": "tt_um_gray_sobel",
-      "address": 868,
+      "address": 864,
       "title": "tt_um_sobel_threshold",
       "author": "Jhon Ramirez & Diana Maldonado",
       "description": "Grayscale, Sobel filter and thresholding.",
@@ -4398,7 +4348,7 @@
     },
     {
       "macro": "tt_um_hackin7_coprocessor",
-      "address": 140,
+      "address": 289,
       "title": "AoC Hardcaml Coprocessor",
       "author": "hackin7",
       "description": "Advent of Code day-1 style position coprocessor (Hardcaml), with byte-serial TT wrapper",
@@ -4436,7 +4386,7 @@
     },
     {
       "macro": "tt_um_hamming74",
-      "address": 33,
+      "address": 37,
       "title": "Hamming(7,4) Encoder/Decoder",
       "author": "Joseph Santhosh K,Noel Jose, Tinu P Mathew, Abhinav Kuruvila, Sahil K",
       "description": "Single-bit error correcting Hamming(7,4) encoder and decoder.",
@@ -4474,7 +4424,7 @@
     },
     {
       "macro": "tt_um_happy_birthday",
-      "address": 321,
+      "address": 162,
       "title": "IEEE Happy Birthday Detector",
       "author": "Team Kanyarashi",
       "description": "Transmits a serial bit stream and detects a 9-bit birthday pattern (March 7), counting and displaying hits per second on a 7-segment display",
@@ -4550,7 +4500,7 @@
     },
     {
       "macro": "tt_um_ieee_opensilicon_bootcamp",
-      "address": 5,
+      "address": 9,
       "title": "Guess the Number Game - IEEE OpenSilicon Bootcamp",
       "author": "Maria Emilia Cueva",
       "description": "Guessing game with 3 attempts and hints.",
@@ -4588,7 +4538,7 @@
     },
     {
       "macro": "tt_um_ieee_pwd",
-      "address": 972,
+      "address": 968,
       "title": "IEEE PWM Generator",
       "author": "Maria Jose Huiza",
       "description": "2-bit PWM generator with configurable duty cycle via reference bits",
@@ -4626,14 +4576,14 @@
     },
     {
       "macro": "tt_um_ik_0_ptat_bgr",
-      "address": 772,
+      "address": 265,
       "title": "Pseudo-PTAT cell based bandgap reference",
       "author": "Istvan Kovacs",
       "description": "Simple bandgap reference voltage generator based on the pseudo-PTAT current generator with enable gated startup included.",
       "clock_hz": 0,
       "tiles": "1x2",
       "analog_pins": [
-        10
+        6
       ],
       "repo": "https://github.com/kovistvan/tt_um_ik_0_ptat_bgr_ieee",
       "commit": "03342b442ba4a5e32279e5985dd615d4baaaf19f",
@@ -4672,7 +4622,7 @@
     },
     {
       "macro": "tt_um_iporre_rm121",
-      "address": 684,
+      "address": 335,
       "title": "IEEE PONG IPORRE VGA",
       "author": "RODRIGO MIGUEL IPORRE COCA",
       "description": "IT'S A PONG GAME WITH A SCORE COUNTER",
@@ -4710,7 +4660,7 @@
     },
     {
       "macro": "tt_um_isalopez9_memory_game",
-      "address": 996,
+      "address": 992,
       "title": "Simon Memory Game Chip",
       "author": "Isabella L\u00f3pez & Marlon Carriel",
       "description": "A simple Simon Says memory game implemented in Verilog using a RAM and FSM.",
@@ -4798,57 +4748,8 @@
       }
     },
     {
-      "macro": "tt_um_izh_neuron_4pins",
-      "address": 526,
-      "title": "SKY130 Spiking Neuron",
-      "author": "Abdulkarim Alorf, Tomohisa Kawakami",
-      "description": "A compact analog spiking neuron",
-      "clock_hz": 0,
-      "tiles": "1x2",
-      "analog_pins": [
-        6,
-        7,
-        9,
-        8
-      ],
-      "repo": "https://github.com/Abiaselli/SKY130-Spiking-Neuron-4pins",
-      "commit": "9c681e838076d0bfeb72c1203713eba5fb5fc67c",
-      "pinout": {
-        "ui[0]": "",
-        "ui[1]": "",
-        "ui[2]": "",
-        "ui[3]": "",
-        "ui[4]": "",
-        "ui[5]": "",
-        "ui[6]": "",
-        "ui[7]": "",
-        "uo[0]": "",
-        "uo[1]": "",
-        "uo[2]": "",
-        "uo[3]": "",
-        "uo[4]": "",
-        "uo[5]": "",
-        "uo[6]": "",
-        "uo[7]": "",
-        "uio[0]": "",
-        "uio[1]": "",
-        "uio[2]": "",
-        "uio[3]": "",
-        "uio[4]": "",
-        "uio[5]": "",
-        "uio[6]": "",
-        "uio[7]": "",
-        "ua[0]": "IREFB",
-        "ua[1]": "VOUT",
-        "ua[2]": "IREFA",
-        "ua[3]": "BIASC",
-        "ua[4]": "",
-        "ua[5]": ""
-      }
-    },
-    {
       "macro": "tt_um_jacob_kebaso_4bit_cpu",
-      "address": 174,
+      "address": 845,
       "title": "Nibble - 4-bit CPU",
       "author": "Jacob Kebaso",
       "description": "A minimalistic 4-bit accumulator CPU with 16 instructions and external program memory.",
@@ -4886,7 +4787,7 @@
     },
     {
       "macro": "tt_um_jasonbrave_terre",
-      "address": 872,
+      "address": 868,
       "title": "Terre VGA",
       "author": "Jason Xu",
       "description": "VGA output with moving text Bonjour Terre",
@@ -4924,7 +4825,7 @@
     },
     {
       "macro": "tt_um_jenny82121027_axi4lite",
-      "address": 290,
+      "address": 294,
       "title": "AXI4-Lite Slave Register Demo",
       "author": "jenny82121027",
       "description": "Tiny Tapeout AXI4-Lite slave wrapper with a read-only ID register, 32 registers, and a 16-bit readback path on the bidirectional pins.",
@@ -4962,7 +4863,7 @@
     },
     {
       "macro": "tt_um_jonathanbytes_alu8_serial",
-      "address": 555,
+      "address": 559,
       "title": "ALU8 Serial (IEEE)",
       "author": "Jonathan Cardona Ram\u00edrez",
       "description": "8-bit serial-in ALU with parallel result and done, zero, negative/sign, carry/borrow, overflow flags (ADD, SUB, AND, OR, XOR, NOT).",
@@ -5046,7 +4947,7 @@
     },
     {
       "macro": "tt_um_kazan_rqpu",
-      "address": 810,
+      "address": 814,
       "title": "tt_um_kazan_rqpu",
       "author": "Tarek Alhafez",
       "description": "RQPU v2 reversible-computing-inspired 4-bit processor with 4-phase bus and 4x4 RAM",
@@ -5084,7 +4985,7 @@
     },
     {
       "macro": "tt_um_krisjdev_artwork",
-      "address": 303,
+      "address": 716,
       "title": "Silicon Artwork",
       "author": "Kristaps Jurkans",
       "description": "Hatsune Miku and Juno Teo Minh in silicon!",
@@ -5122,7 +5023,7 @@
     },
     {
       "macro": "tt_um_krv8_ieee",
-      "address": 416,
+      "address": 420,
       "title": "A simple 8-bit RISC-V style CPU",
       "author": "Subir Maity, Jitendra Das",
       "description": "A simple 8 bit RISC-V style CPU with basic functionality. This cou does not contain any instruction memory. Intruction code is applied externally via switches or via MCU or FPGA",
@@ -5160,7 +5061,7 @@
     },
     {
       "macro": "tt_um_leongamboa_OpenSilicon_SubmissionChapterLogo",
-      "address": 672,
+      "address": 676,
       "title": "Open Silicon 2026: SKY26a Submission - Chapter Logo",
       "author": "IEEE IES-IPS Philippine Chapter",
       "description": "Submission #1 to the SKY26a shuttle for Open Silicon workshop",
@@ -5198,7 +5099,7 @@
     },
     {
       "macro": "tt_um_leozqi_onetile",
-      "address": 865,
+      "address": 803,
       "title": "OneTile!",
       "author": "Leo Qi",
       "description": "This Conway's GameOfLife fits on one tile!",
@@ -5312,7 +5213,7 @@
     },
     {
       "macro": "tt_um_load_priority_controller",
-      "address": 45,
+      "address": 974,
       "title": "IEEE Open-Silicon 2026: Load Priority Controller",
       "author": "Abiola Enoch, Omotosho Enoch, Esabu Blessing",
       "description": "An IEEE Division 1 Open Silicon Tapeout Initiative - Smart hardware FSM with staged load activation, noise filtering, and load shedding for power-constrained systems. No firmware required.",
@@ -5350,7 +5251,7 @@
     },
     {
       "macro": "tt_um_lpf_ieee",
-      "address": 962,
+      "address": 896,
       "title": "Moving average Digital Low pass filter (IEEE open silicon)",
       "author": "Aditya Panigrahi",
       "description": "A Moving Average Filter is a specific type of Finite Impulse Response (FIR) filter where all N coefficients are equal to 1/N. It is widely used in digital signal processing (DSP) to reduce high-frequency noise from a signal while maintaining a sharp response to step changes in the time domain",
@@ -5388,7 +5289,7 @@
     },
     {
       "macro": "tt_um_lstm_wakeword",
-      "address": 452,
+      "address": 448,
       "title": "TTSKY26A Neural Network - LSTM Wake Word Detector",
       "author": "William Anthony",
       "description": "8-bit quantized LSTM for real-time 'NYALA' (Light On) wake word detection. Privacy-first smart home voice controller.",
@@ -5426,7 +5327,7 @@
     },
     {
       "macro": "tt_um_lujji_ulogic_analyzer",
-      "address": 200,
+      "address": 196,
       "title": "ulogic_analyzer",
       "author": "lujji",
       "description": "useless logic analyzer",
@@ -5464,7 +5365,7 @@
     },
     {
       "macro": "tt_um_magnetofield_ieee",
-      "address": 418,
+      "address": 422,
       "title": "Hackerspace logo IEEE",
       "author": "Jakub Racho\u0144",
       "description": "Hs3 logo displayed via VGA port on 640x480",
@@ -5502,7 +5403,7 @@
     },
     {
       "macro": "tt_um_main_fsm_anbui_uci",
-      "address": 206,
+      "address": 202,
       "title": "Swarm Microrobot Drug Delivery FSM",
       "author": "An Bui",
       "description": "Finite state machine for clot detection, swarm communication, drug release, and motor control",
@@ -5540,7 +5441,7 @@
     },
     {
       "macro": "tt_um_maw_game",
-      "address": 38,
+      "address": 46,
       "title": "MAW Bird Shooter VGA Game",
       "author": "Marc-Andre",
       "description": "A fully synthesized single-player bird-shooting arcade game on a Tiny Tapeout ASIC driving a 640x480 60 Hz VGA display: move a crosshair with four directional buttons and press SHOOT to hit a wandering animated bird within 10 shots, with HIT/MISS overlays, a shot counter, and win/lose screens.",
@@ -5578,7 +5479,7 @@
     },
     {
       "macro": "tt_um_minmanrox_drone",
-      "address": 298,
+      "address": 302,
       "title": "Drone Flight Controller",
       "author": "Kyle Minihan",
       "description": "A simple flight controller for a quadcopter drone.",
@@ -5616,7 +5517,7 @@
     },
     {
       "macro": "tt_um_ml_coprocessor",
-      "address": 866,
+      "address": 800,
       "title": "Kunal ML co-processor",
       "author": "Kunal Ghosh",
       "description": "Machine learning co-processor",
@@ -5654,7 +5555,7 @@
     },
     {
       "macro": "tt_um_morse_code",
-      "address": 934,
+      "address": 938,
       "title": "Translator",
       "author": "Nano CNMN IPN",
       "description": "Translates Morse code and displays plaintext on seven-segment displays",
@@ -5743,7 +5644,7 @@
     },
     {
       "macro": "tt_um_nezumi_tech_adc_sq_compare",
-      "address": 870,
+      "address": 866,
       "title": "TT ADC SQ Compare",
       "author": "Takaharu YAMADA",
       "description": "For my academic research",
@@ -5819,7 +5720,7 @@
     },
     {
       "macro": "tt_um_nn_3x3",
-      "address": 841,
+      "address": 837,
       "title": "3x3 Hardware Neural Network (Programmable TPU)",
       "author": "Vasilis Zoidis and Savvas Tzanetis",
       "description": "A programmable sequential 3-neuron hardware NN with 3 inputs and ReLU using a shared MAC unit.",
@@ -5895,7 +5796,7 @@
     },
     {
       "macro": "tt_um_ocd_charlieplex",
-      "address": 968,
+      "address": 964,
       "title": "Charlieplex array controller",
       "author": "Tim Edwards",
       "description": "Charlieplex LED array controller with UART programming",
@@ -5933,7 +5834,7 @@
     },
     {
       "macro": "tt_um_ocpu",
-      "address": 139,
+      "address": 143,
       "title": "OCPU",
       "author": "Ayan A.",
       "description": "PLL-based OverClockable CPU",
@@ -5971,7 +5872,7 @@
     },
     {
       "macro": "tt_um_okforth_ieee",
-      "address": 420,
+      "address": 424,
       "title": "SUBLEQ CPU IEEE",
       "author": "Touka Szulc",
       "description": "A type of OISC (One Instruction Set Computer).",
@@ -6009,7 +5910,7 @@
     },
     {
       "macro": "tt_um_opensilicio_5g_rectifier",
-      "address": 265,
+      "address": 522,
       "title": "5 GHz RF-DC Rectifier",
       "author": "Carlos Knebel",
       "description": "Differential RF-DC rectifier in Sky130 for passive RFID / RF energy harvesting experiments.",
@@ -6057,7 +5958,7 @@
     },
     {
       "macro": "tt_um_oreoluwa_water_level",
-      "address": 714,
+      "address": 710,
       "title": "IEEE Open-silicon 2026 x NITHUB: Fluid Level Detector and Controller",
       "author": "Ore-Oluwa Oluwatosin, Akeem Jr Odebiyi, Victor Awofegha, Ogunlowo Oluwasegunfunmi, Saka Suliat",
       "description": "IEEE Division 1 Open Silicon Initiative Tapeout Project, this is a 4-state FSM that drives a water pump from two level sensors, with an impossible-state error flag.",
@@ -6141,7 +6042,7 @@
     },
     {
       "macro": "tt_um_pcs_link_lite",
-      "address": 878,
+      "address": 874,
       "title": "PCS Lite: Asynchronous 8b10b SerDes",
       "author": "Jolyan Ye",
       "description": "A Physical Coding Sublayer (PCS) with 8b10b encoding and CDC FIFOs between 66MHz (link) and 10MHz (system) domains.",
@@ -6179,7 +6080,7 @@
     },
     {
       "macro": "tt_um_peterhan_ReactionGame",
-      "address": 34,
+      "address": 719,
       "title": "Reaction Time Game",
       "author": "evstorms",
       "description": "Multiplayer reaction time game with VGA display output (640x480), supporting Classic and Target Match modes",
@@ -6217,7 +6118,7 @@
     },
     {
       "macro": "tt_um_petros",
-      "address": 800,
+      "address": 804,
       "title": "TTNN: Pre-trained BNN for 8x8 MNIST",
       "author": "Petros Emmanouilidis",
       "description": "A pre-trained Binary Neural Network for 8x8 MNIST",
@@ -6255,7 +6156,7 @@
     },
     {
       "macro": "tt_um_pfw_tpu",
-      "address": 207,
+      "address": 203,
       "title": "2x2 Systolic Array TPU",
       "author": "PFW Tiny Tapeout Team",
       "description": "A 2x2 systolic-array Tensor Processing Unit that performs signed 8-bit matrix multiplication with 16-bit accumulation, optional fused transpose, and ReLU activation. Pipelined streaming allows overlapped input/output.",
@@ -6293,7 +6194,7 @@
     },
     {
       "macro": "tt_um_pmendoza_ieee_tinyscan",
-      "address": 994,
+      "address": 928,
       "title": "Tiny SCAN chain tester",
       "author": "Pablo Mendoza Ponce",
       "description": "Test module to lear about scan chains",
@@ -6331,7 +6232,7 @@
     },
     {
       "macro": "tt_um_prathiba_finite_sbox",
-      "address": 448,
+      "address": 35,
       "title": "Finite Field AES S-box",
       "author": "Prathiba",
       "description": "Composite field Lightweight S-box implementation",
@@ -6418,7 +6319,7 @@
     },
     {
       "macro": "tt_um_pro_clk",
-      "address": 164,
+      "address": 168,
       "title": "Programmable Clock Generator",
       "author": "Basil Mathews Biju, Rohn Eldho and Adithyan A",
       "description": "clock genrator",
@@ -6456,7 +6357,7 @@
     },
     {
       "macro": "tt_um_processor_top",
-      "address": 166,
+      "address": 170,
       "title": "TinyCrypto-8",
       "author": "Team Apex",
       "description": "An 8-Bit Pipelined ALU with Hardware Cryptography",
@@ -6494,7 +6395,7 @@
     },
     {
       "macro": "tt_um_prog_clk_router",
-      "address": 15,
+      "address": 418,
       "title": "Programmable Clock Router (IEEE)",
       "author": "AISWARYA VM , GAUTHAM P NAIR , LAKSHMI NAIR",
       "description": "8-channel programmable clock divider using a 16-bit counter and configurable routing",
@@ -6532,7 +6433,7 @@
     },
     {
       "macro": "tt_um_puf",
-      "address": 847,
+      "address": 843,
       "title": "IEEE Ring Oscillator PUF",
       "author": "Rajkamal",
       "description": "8-pair RO-PUF: LFSR-driven toggle FFs, 8x12-bit counter pairs, 3-state FSM",
@@ -6570,7 +6471,7 @@
     },
     {
       "macro": "tt_um_pwm_4ch",
-      "address": 773,
+      "address": 777,
       "title": "IEEE Multi-Channel PWM Controller ",
       "author": "pvc",
       "description": "Multi-Channel PWM controller with configurable frequency, dead-time insertion, phase offset, and fault protection, configured via SPI",
@@ -6608,7 +6509,7 @@
     },
     {
       "macro": "tt_um_pzhu2",
-      "address": 512,
+      "address": 717,
       "title": "Hardware Triangle Rasterizer with VGA Output",
       "author": "Pauline Zhu",
       "description": "Edge-equation triangle rasterizer rendering filled triangles to a 256x256 VGA viewport at 640x480@60Hz",
@@ -6646,7 +6547,7 @@
     },
     {
       "macro": "tt_um_quadpulse_pwm",
-      "address": 910,
+      "address": 1004,
       "title": "QuadPulse \u2014 4-Channel Servo/Motor PWM ASIC",
       "author": "Sarvesh S",
       "description": "A dedicated 4-channel PWM generator ASIC for servo and DC motor control in robotic systems. Eliminates software timing jitter by implementing PWM generation entirely in silicon. Supports 50 Hz servo control through 20 kHz motor drive. SPI interface allows runtime duty cycle updates from any microcontroller. Hardware emergency stop instantly silences all channels. Designed for autonomous robotic swarm applications where deterministic multi-channel motor control is critical.\n",
@@ -6684,7 +6585,7 @@
     },
     {
       "macro": "tt_um_rahulbhagwat_brainamp_lna",
-      "address": 522,
+      "address": 267,
       "title": "brainamp-ac-coupled-lna",
       "author": "Rahul Bhagwat",
       "description": "AC Coupled Low Noise Amplifier for a brain computer interface",
@@ -6910,7 +6811,7 @@
     },
     {
       "macro": "tt_um_reaction_game",
-      "address": 47,
+      "address": 972,
       "title": "Reaction game on Simon Says board",
       "author": "Mikkel Heise Kofoed",
       "description": "Testing your reaction time",
@@ -6948,7 +6849,7 @@
     },
     {
       "macro": "tt_um_rebeccargb_hardware_utf8",
-      "address": 704,
+      "address": 547,
       "title": "Hardware UTF Encoder/Decoder",
       "author": "Rebecca G. Bettencourt",
       "description": "Converts Unicode code points between UTF-8, UTF-16, and UTF-32.",
@@ -6986,7 +6887,7 @@
     },
     {
       "macro": "tt_um_rebeccargb_intercal_alu",
-      "address": 706,
+      "address": 545,
       "title": "INTERCAL ALU",
       "author": "Rebecca G. Bettencourt",
       "description": "An ALU for the five operators of the INTERCAL programming language.",
@@ -7024,7 +6925,7 @@
     },
     {
       "macro": "tt_um_rebeccargb_universal_decoder",
-      "address": 549,
+      "address": 553,
       "title": "Universal Binary to Segment Decoder",
       "author": "Rebecca G. Bettencourt",
       "description": "Decodes various binary codes to various segmented displays.",
@@ -7062,7 +6963,7 @@
     },
     {
       "macro": "tt_um_rebeccargb_vga_pride",
-      "address": 864,
+      "address": 802,
       "title": "VGA Pride",
       "author": "Rebecca G. Bettencourt",
       "description": "A VGA demo for showing pride flags",
@@ -7100,7 +7001,7 @@
     },
     {
       "macro": "tt_um_riscv_alu",
-      "address": 71,
+      "address": 67,
       "title": "(IEEE) rv32i RISC-V ALU",
       "author": "Ahmed Mustakim \u2014 UCF EEE-5390C",
       "description": "Full 32-bit RISC-V ALU implementing ADD SUB AND OR XOR SLL SRL SRA SLT SLTU. Part of rv32imsu SoC designed in Synopsys ICC2 on sky130A at UCF.",
@@ -7138,7 +7039,7 @@
     },
     {
       "macro": "tt_um_riscv_branch",
-      "address": 456,
+      "address": 452,
       "title": "(IEEE) rv32i RISC-V Branch Condition Unit",
       "author": "Ahmed Mustakim \u2014 UCF EEE-5390C",
       "description": "RISC-V rv32i branch condition evaluator implementing all six branch instructions BEQ BNE BLT BGE BLTU BGEU. Companion to the rv32i ALU tile. Both are components of a complete rv32imsu RISC-V SoC designed in Synopsys DC Shell and ICC2 on sky130A 130nm PDK at UCF EEE-5390C.",
@@ -7176,7 +7077,7 @@
     },
     {
       "macro": "tt_um_riscv_gpu",
-      "address": 814,
+      "address": 205,
       "title": "4x4 BitNet b1.58 Matrix Multiply Accelerator",
       "author": "siriboi",
       "description": "SPI-controlled 4x4 W1.58A8 matrix multiply accelerator (BitNet b1.58): uint8 activations x ternary {-1,0,+1} weights, multiplier-free PE-parallel MAC",
@@ -7214,7 +7115,7 @@
     },
     {
       "macro": "tt_um_rom_vga_screensaver",
-      "address": 203,
+      "address": 199,
       "title": "VGA Screensaver with embedded bitmap ROM",
       "author": "Uri Shaked",
       "description": "64x64x6bpp Tiny Tapeout Logo bouncing around the screen (640x480, TinyVGA Pmod)",
@@ -7252,7 +7153,7 @@
     },
     {
       "macro": "tt_um_ross_systolic",
-      "address": 559,
+      "address": 460,
       "title": "2x2 Systolic Array Matrix Multiplier",
       "author": "Roshan Tripathy, Dr. Amit Bakshi, Ashmit Avash",
       "description": "2x2 signed 4-bit systolic array matrix multiplier with 9-bit accumulators, overflow detection, sign reconstruction, and manual step mode",
@@ -7290,7 +7191,7 @@
     },
     {
       "macro": "tt_um_rule30_vga",
-      "address": 837,
+      "address": 833,
       "title": "IEEE Rule 30 Cellular Automaton VGA Display",
       "author": "NAVEEN KUMAAR S",
       "description": "Hardware implementation of Wolfram Rule 30 cellular automaton rendered on a VGA monitor.",
@@ -7328,7 +7229,7 @@
     },
     {
       "macro": "tt_um_rv32_vga",
-      "address": 719,
+      "address": 711,
       "title": "Systolic VGA Visualizer",
       "author": "siriboi",
       "description": "4x4 ternary systolic-array demo with 640x480 VGA output. The array result matrix is rendered directly as a 4x4 fullscreen heatmap.",
@@ -7404,7 +7305,7 @@
     },
     {
       "macro": "tt_um_sandsim_Alden_G878",
-      "address": 46,
+      "address": 770,
       "title": "SandSim",
       "author": "Alden Grover",
       "description": "Physics engine that simulates falling sand on a 2d plane",
@@ -7442,7 +7343,7 @@
     },
     {
       "macro": "tt_um_scisneros29_BCR",
-      "address": 9,
+      "address": 13,
       "title": "tt_um_scisneros29_BCR",
       "author": "Juan, Cris y Santi",
       "description": "Banco (BCR) de registros",
@@ -7480,7 +7381,7 @@
     },
     {
       "macro": "tt_um_seapanda0",
-      "address": 966,
+      "address": 962,
       "title": "IEEE_DSP_FIR",
       "author": "Lim Zing, Au Kai Zhe",
       "description": "Digital Signal Processor using Finite Impulse Response (FIR) Filter",
@@ -7518,7 +7419,7 @@
     },
     {
       "macro": "tt_um_sienahlee",
-      "address": 133,
+      "address": 137,
       "title": "18244-s26-tiny-nn",
       "author": "siena",
       "description": "a tiny NN that determines if a point is inside or outside a circle boundary",
@@ -7556,7 +7457,7 @@
     },
     {
       "macro": "tt_um_silicon_art_vga_screensaver",
-      "address": 806,
+      "address": 810,
       "title": "VGA Screensaver with Silicon Art ROM",
       "author": "Uri Shaked",
       "description": "TinyTapeout logo bouncing around a 640x480 VGA screen, with the bitmap stored in a NOR ROM whose transistor pattern is silicon art (TinyVGA Pmod)",
@@ -7594,7 +7495,7 @@
     },
     {
       "macro": "tt_um_sillylad_top",
-      "address": 294,
+      "address": 298,
       "title": "Tiny Rainbow Snake Game",
       "author": "Lilly Das",
       "description": "The snake game you know and love, but tiny and rainbow.",
@@ -7632,7 +7533,7 @@
     },
     {
       "macro": "tt_um_sker",
-      "address": 225,
+      "address": 34,
       "title": "Bomberman",
       "author": "Sylvia Ker",
       "description": "2 Player Mini Bomberman",
@@ -7670,7 +7571,7 @@
     },
     {
       "macro": "tt_um_sky_pll",
-      "address": 811,
+      "address": 815,
       "title": "SKY PLL test project",
       "author": "Paul Campbell",
       "description": "A test tile for a TT PLL 50-250MHz",
@@ -7708,7 +7609,7 @@
     },
     {
       "macro": "tt_um_snk_pwm_uart",
-      "address": 869,
+      "address": 865,
       "title": "PWM UART Controller",
       "author": "NAVEEN KUMAAR S",
       "description": "UART-controlled 7-channel PWM generator",
@@ -7746,7 +7647,7 @@
     },
     {
       "macro": "tt_um_snk_smart_io_hub",
-      "address": 201,
+      "address": 197,
       "title": "UART Smart I/O Hub",
       "author": "NAVEEN KUMAAR S",
       "description": "IEEE SNK_UART-controlled 64-channel PWM hub with banked outputs, internal modulation engine, ALU datapath, and sequencer.",
@@ -7784,7 +7685,7 @@
     },
     {
       "macro": "tt_um_snn_afib_detector",
-      "address": 906,
+      "address": 910,
       "title": "SNN AFib Detector \u2014 Spiking Reservoir Computing Core",
       "author": "SanjayKrishna",
       "description": "A spiking neural network (SNN) reservoir computing chip that detects atrial fibrillation and asystole in real time from R-peak timing pulses, using 11 LIF neurons, recurrent feedback, and 2-of-3 triple-window majority voting.",
@@ -7822,7 +7723,7 @@
     },
     {
       "macro": "tt_um_sobel",
-      "address": 930,
+      "address": 934,
       "title": "Streaming Sobel Edge Detection Accelerator",
       "author": "Zihang Cheng",
       "description": "Streaming Sobel edge detection ASIC using line-buffer based 3x3 convolution for grayscale image processing",
@@ -7860,7 +7761,7 @@
     },
     {
       "macro": "tt_um_sqrt8_ieee",
-      "address": 7,
+      "address": 11,
       "title": "A simple 8-bit square root calculator.",
       "author": "Chiranjeet Bhattacharjee, Himadri Ghosh, Aditya Panigrahi, Debaditya Dasgupta, Subir Kr. Maity",
       "description": "Calculates the square root of an 8-bit unsigned integer using the non-restoring algorithm. The output is provided in Q4.4 fixed-point format, allowing for fractional precision.",
@@ -7898,7 +7799,7 @@
     },
     {
       "macro": "tt_um_systolic_array",
-      "address": 42,
+      "address": 227,
       "title": "Custom 3 by 3 Systolic Array",
       "author": "Carter Brady",
       "description": "This is a 3 by 3 systolic array with 4 bit inputs that performs matrix multiplication.",
@@ -7936,7 +7837,7 @@
     },
     {
       "macro": "tt_um_tetrahedral_oscillator",
-      "address": 513,
+      "address": 512,
       "title": "Tetrahedral Oscillator",
       "author": "Juvenal Romero Pedraza, Gael Gabino Diaz Ojeda, Mario Ranferi Romero Salgado.",
       "description": "Tetrahedral oscillator based on coupled CMOS inverter pairs with capacitive load tuning.",
@@ -7980,7 +7881,7 @@
     },
     {
       "macro": "tt_um_the_siliconimist_chip1",
-      "address": 73,
+      "address": 69,
       "title": "The Siliconimist Chip1",
       "author": "The Siliconimist - John Cole",
       "description": "The Siliconimist Chip1 is a 1x1 tile ASIC that is a simple hello world project.",
@@ -8056,7 +7957,7 @@
     },
     {
       "macro": "tt_um_thorsten_shiftregister",
-      "address": 35,
+      "address": 39,
       "title": "Shiftregister Challenge 40 Bit",
       "author": "Thorsten Knoll",
       "description": "The design is a 40 bit shiftregister with a hardcoded 40 bit number. The challenge is to find the correct 40 bit to enable the output to high. With all other numbers the output will be low.",
@@ -8094,7 +7995,7 @@
     },
     {
       "macro": "tt_um_thunder",
-      "address": 587,
+      "address": 583,
       "title": "Ford Thunderbird Rearlights Controller - IEEE OpenSilicon Bootcamp",
       "author": "Juan Fernando Posso & Pierina Miraba",
       "description": "The circuit implements a sequential rear-light controller inspired by the Ford Thunderbird, using a 2-bit counter to generate timing states. A controller and decoders convert these states into progressive left and right light patterns based on the input signal.",
@@ -8170,7 +8071,7 @@
     },
     {
       "macro": "tt_um_tiny3d_kevinqian11",
-      "address": 296,
+      "address": 300,
       "title": "Tiny3D",
       "author": "Kevin Qian",
       "description": "The smallest ever 3D graphics engine",
@@ -8208,7 +8109,7 @@
     },
     {
       "macro": "tt_um_tiny8_risclike",
-      "address": 589,
+      "address": 585,
       "title": "IEEE_CPU with SPI program load and internal execution",
       "author": "Luis Javier",
       "description": "8-bit CPU that loads 16-bit instructions over SPI into internal program memory and then executes them autonomously. Final stable version uses 10 instruction slots and an enriched ISA.",
@@ -8246,7 +8147,7 @@
     },
     {
       "macro": "tt_um_tiny_8bit_cpu",
-      "address": 199,
+      "address": 195,
       "title": "IEEE Tiny 8bit CPU",
       "author": "Korichi Aymene, Bouyahiaoui Hadjer, Boubraa Nadjib",
       "description": "A tiny compact 8-bit 4 general register  CPU with 16 instructions",
@@ -8284,7 +8185,7 @@
     },
     {
       "macro": "tt_um_tinycgra",
-      "address": 813,
+      "address": 206,
       "title": "tinyCGRA 2x2",
       "author": "rikutoide",
       "description": "2x2 tiny CGRA array with serial configuration",
@@ -8373,7 +8274,7 @@
     },
     {
       "macro": "tt_um_top",
-      "address": 779,
+      "address": 783,
       "title": "IEEE_henon",
       "author": "ktri",
       "description": "henon map",
@@ -8411,7 +8312,7 @@
     },
     {
       "macro": "tt_um_top_module_16_mips",
-      "address": 843,
+      "address": 839,
       "title": "16-bit MIPS Single Cycle Processor",
       "author": "Dimosthenis Papathanasiou , Andreas Skoufakis , Christoforos Marinopoulos",
       "description": "A complete 16-bit MIPS single-cycle processor that loads 16-bit instructions through the existing 8-bit Tiny Tapeout input pins",
@@ -8449,7 +8350,7 @@
     },
     {
       "macro": "tt_um_tpu",
-      "address": 41,
+      "address": 45,
       "title": "Mini TPU v2",
       "author": "Miloudi Adel Hani and Sotehi Yacine and Yassine Hamzi and Talhi Mehdi Boudraa Nadjib and Dennis Du and Rick Gao ",
       "description": "The systolic array for the Mini TPU v2 in Tiny Tapeout is a compact, parallel processing architecture optimized for matrix multiplications, utilizing a 3x3 array of processing elements to efficiently perform multiply-accumulate (MAC) operations., while the input and wheights can be fetched externally through SPI, built with funding from IEEE",
@@ -8487,7 +8388,7 @@
     },
     {
       "macro": "tt_um_traffic_ctrl",
-      "address": 960,
+      "address": 898,
       "title": "IEEE Open-Silicon 2026: Adaptive Traffic Light Controller with Emergency Override",
       "author": "Anthony Ebo, Abubakar Abdulfatah, Amaechina Sinclair, Taofeek Kassim, Abdulmaleek",
       "description": "FSM-based two-road traffic light controller with sensor-adaptive green-phase extension and hardware emergency-vehicle priority override.",
@@ -8563,7 +8464,7 @@
     },
     {
       "macro": "tt_um_trinity_nano",
-      "address": 198,
+      "address": 194,
       "title": "TRI-1 Phi \u2014 Trinity \u03c6-anchor 1\u00d71 Lucas POST + CLARA Gap-4",
       "author": "Dmitrii Vasilev",
       "description": "Smallest SKU of the TRI-1 Triad (\u03c6-anchor / e-engine / \u03b3-surface) \u2014 a single-tile Trinity GF16(2^4) ternary dot4 MAC with enhanced safety. On reset the chip drives the canonical dot4(1.0,2.0,3.0,4.0) = 0x47C0 directly onto {uio_out, uo_out}, matching the same constant emitted by e-engine (tt-trinity-euler) and \u03b3-surface (tt-trinity-gamma). This is the cross-die anchor for the TG-TRIAD-X ledger (PhD Theorem 36.1). Enhanced modules: phi_anchor_post (Lucas L\u2082..L\u2087 POST proving \u03c6\u00b2+\u03c6\u207b\u00b2=3), lucas_rom (addressable L_n host probe), hwrng_lfsr (die-unique nonce), restraint_ctrl (CLARA Gap-4 bounded rationality), sacred_constants_rom (75 PhD constants), crown47_rom (Trinity constants), friend/foe handshake. v1.0.0: GF4-GF256 formats, quantizers (Int4/Int8/NF4/FP8/Posit16), sacred opcodes (0xDF, 0xE1-0xED), power modules (AVS-96, FBB, Purkinje). R-SI-1: zero `*` operators in synthesisable RTL. Anchor: phi^2 + phi^-2 = 3. DOI: 10.5281/zenodo.19227877. TOPS/W: 75 baseline, 405 with AVS-96 (5.4\u00d7 boost).\n",
@@ -8601,7 +8502,7 @@
     },
     {
       "macro": "tt_um_tron_game",
-      "address": 302,
+      "address": 715,
       "title": "TRON: Light Cycles game with VGA support (IEEE)",
       "author": "Jacombo Morales, Hernando D\u00edaz",
       "description": "TRON: Light Cycles 2 player game implemented on chip using VGA output",
@@ -8639,7 +8540,7 @@
     },
     {
       "macro": "tt_um_tt08_axis_fifo_fwft_bkenololo",
-      "address": 1006,
+      "address": 1002,
       "title": "IEEE 8-bit AXI4-Stream FWFT FIFO",
       "author": "Benedictus Kenneth Setiadi",
       "description": "An 8-bit depth-16 AXI4-Stream FIFO with First-Word Fall-Through (FWFT) using register file.",
@@ -8677,7 +8578,7 @@
     },
     {
       "macro": "tt_um_ultrasage_danz",
-      "address": 896,
+      "address": 900,
       "title": "IEEE Open-Silicon 2026 x NITHUB: Soil Moisture Irrigation Controller",
       "author": "Shadia, Elijah, Oluwatomiwa, Emmanuel, Daniel, Orobosa",
       "description": " An IEEE Division 1 Open Silicon Tapeout Initiative Project, this is a finite state machine that controls irrigation pump based on soil moisture levels detected by two comparators, with error handling for invalid states",
@@ -8715,7 +8616,7 @@
     },
     {
       "macro": "tt_um_umitanik_matmul3x3",
-      "address": 835,
+      "address": 769,
       "title": "3x3 Serial Matrix Multiplier (4-bit)",
       "author": "Umit Anik",
       "description": "Serial-load 3x3 unsigned 4-bit matrix multiplier with 10-bit output (2 bytes)",
@@ -8753,7 +8654,7 @@
     },
     {
       "macro": "tt_um_unified_error_detection",
-      "address": 932,
+      "address": 936,
       "title": "8-Bit Error Detection Engine",
       "author": "Himadri Ghosh, Aditya Panigrahi, Chiranjeet Bhattacharjee, Debaditya Dasgupta, Subir Kr. Maity",
       "description": "A multiplexed combinational engine providing Hamming(12,8) and CRC-8 data protection for high-reliability 8-bit SoC communication.",
@@ -8829,7 +8730,7 @@
     },
     {
       "macro": "tt_um_usp_didactic",
-      "address": 998,
+      "address": 994,
       "title": "(IEEE) USP OpenSilicio Didactic Testchip",
       "author": "USP OpenSilicio Group (IEEE)",
       "description": "Didactic chip for teaching CMOS design at USP. Five modules selected by a 3-bit main MUX: logic gate library, ring oscillator with 24-bit configurable divider, phase-frequency detector (PFD), D/T flip-flop study, and 4-bit binary counter.",
@@ -8873,7 +8774,7 @@
     },
     {
       "macro": "tt_um_vga",
-      "address": 160,
+      "address": 164,
       "title": "IEEE Multi-Mode Procedural VGA Graphics Engine",
       "author": "Kannan S J",
       "description": "Procedural VGA graphics engine with multiple real-time modes using arithmetic-only rendering.",
@@ -8911,7 +8812,7 @@
     },
     {
       "macro": "tt_um_vga_ascii",
-      "address": 450,
+      "address": 33,
       "title": "ascii_typewriter",
       "author": "Au Kai Zhe",
       "description": "Displaying the sentence As above, so below with typewriter effect",
@@ -8949,7 +8850,7 @@
     },
     {
       "macro": "tt_um_vga_glyph_mode_clone",
-      "address": 430,
+      "address": 589,
       "title": "Philippine IC Design Boot Camp 2026!",
       "author": "Alexander Co abad",
       "description": "Philippine IC Design Boot Camp 2026 Matrix-style display based on VGA Glyph by James Ross https://tinytapeout.com/chips/ttsky25a/tt_um_vga_glyph_mode",
@@ -8987,7 +8888,7 @@
     },
     {
       "macro": "tt_um_vga_sharc_demo",
-      "address": 711,
+      "address": 38,
       "title": "SHaRC VGA Demo",
       "author": "James Ashie Kotey, SHaRC",
       "description": "SHaRC Logo VGA Demo ",
@@ -9101,7 +9002,7 @@
     },
     {
       "macro": "tt_um_vmm_bnn",
-      "address": 553,
+      "address": 557,
       "title": "Nano-Bnn-Accelerator",
       "author": "Giorgos Fragkoulis",
       "description": "A regular binary network accelerator for 1x1 tile Z2A",
@@ -9139,7 +9040,7 @@
     },
     {
       "macro": "tt_um_voltrare",
-      "address": 192,
+      "address": 130,
       "title": "IEEE_UART_TX_Module",
       "author": "LIM ZING",
       "description": "Simple uart TX module",
@@ -9177,7 +9078,7 @@
     },
     {
       "macro": "tt_um_wearlevel_controller",
-      "address": 809,
+      "address": 813,
       "title": "Hardware EEPROM Wear-Leveling Controller",
       "author": "Olonade Kelvin",
       "description": "Implements the proven Start-Gap wear-leveling algorithm, the same technique used in commercial 3D-XPoint and phase-change memories, enhanced with a 2-round Feistel address scrambler for strong resistance against wear-leveling attacks. Additional features include Hamming(6,3) single-error correction on persistent state, automatic bad-block retirement, saturating wear counters, and an in-band telemetry port for monitoring.\n",
@@ -9215,7 +9116,7 @@
     },
     {
       "macro": "tt_um_william_adc8",
-      "address": 77,
+      "address": 73,
       "title": "Sigma-Delta Bitstream ADC (8-bit)",
       "author": "William Anthony",
       "description": "Enable-controlled 1-bit sigma-delta decimator ADC with gain and offset trim",
@@ -9253,7 +9154,7 @@
     },
     {
       "macro": "tt_um_william_pll",
-      "address": 75,
+      "address": 71,
       "title": "Smartcard PLL Clock Generator",
       "author": "William Anthony",
       "description": "Enable-controlled PLL clock generator model for smartcard timing experiments",
@@ -9291,7 +9192,7 @@
     },
     {
       "macro": "tt_um_wlmoi_bcd_to_7segment",
-      "address": 79,
+      "address": 75,
       "title": "TTSKY26A BCD to 7-Segment Decoder",
       "author": "William Anthony",
       "description": "Tiny Tapeout HEX-to-7-segment decoder (0-9,A,b,C,d,e,F) with blank, lamp-test, decimal-point, and active-low mode support.",
@@ -9329,7 +9230,7 @@
     },
     {
       "macro": "tt_um_wokwi_458477197787547649",
-      "address": 678,
+      "address": 682,
       "title": "FULL SUBTRACTOR",
       "author": "Draoui Yacine and Mohammed Ali",
       "description": "full subtractor simple design",
@@ -9367,7 +9268,7 @@
     },
     {
       "macro": "tt_um_wokwi_458489231265343489",
-      "address": 805,
+      "address": 809,
       "title": "EDS workshop 4bit adder",
       "author": "Jeevan",
       "description": "Example 2bit adder",
@@ -9405,7 +9306,7 @@
     },
     {
       "macro": "tt_um_wokwi_458569964697822209",
-      "address": 170,
+      "address": 174,
       "title": "Full Adder: Binary Addition Circuit",
       "author": "Felix Onsongo",
       "description": "This full adder circuit adds three binary inputs (A, B, and Carry-in) to produce a Sum and Carry-out. Built with standard logic gates, it serves as a core component for arithmetic operations in digital systems.",
@@ -9443,7 +9344,7 @@
     },
     {
       "macro": "tt_um_wokwi_458951258752539649",
-      "address": 162,
+      "address": 166,
       "title": "a tour-in the haunted house",
       "author": "Amine AND AMEL",
       "description": "this games u will be playing as a little child",
@@ -9481,7 +9382,7 @@
     },
     {
       "macro": "tt_um_wokwi_460983138943099905",
-      "address": 1004,
+      "address": 1000,
       "title": "Trial IB",
       "author": "Ibo Bob",
       "description": "test",
@@ -9519,7 +9420,7 @@
     },
     {
       "macro": "tt_um_wokwi_461554799001985025",
-      "address": 39,
+      "address": 43,
       "title": "inec_voting",
       "author": "Ebube",
       "description": "inec voting",
@@ -9557,7 +9458,7 @@
     },
     {
       "macro": "tt_um_wokwi_461620354455920641",
-      "address": 65,
+      "address": 5,
       "title": "4-Bit High-Security Password System (IEEE)",
       "author": "mustafa hussain",
       "description": "4-bit password security system using logic gates. Grants access for the correct code and triggers a persistent alarm for the trap code (1111). Uses an SR latch so the buzzer and LED stay ON even if inputs change, requiring manual reset. Demonstrates combinational and sequential logic in hardware security.",
@@ -9595,7 +9496,7 @@
     },
     {
       "macro": "tt_um_wokwi_461622504612675585",
-      "address": 69,
+      "address": 65,
       "title": "Tiny Tapeout : Lock system v2 (IEEE)",
       "author": "Sadeeptha Palihawadana",
       "description": "4 digit lock system",
@@ -9633,7 +9534,7 @@
     },
     {
       "macro": "tt_um_wokwi_461639934990157825",
-      "address": 3,
+      "address": 7,
       "title": "4 bit unlock (IEEE)",
       "author": "Genuka Giyon",
       "description": "4 bit unlocking system with correct password as(1010)",
@@ -9671,7 +9572,7 @@
     },
     {
       "macro": "tt_um_wokwi_462089398612533249",
-      "address": 680,
+      "address": 684,
       "title": "Sunblock Holiday",
       "author": "Lauren Riddiford",
       "description": "Puzzle allowing 2 and only 2 holidays (with an extra sunscreen option)",
@@ -9709,7 +9610,7 @@
     },
     {
       "macro": "tt_um_wokwi_462089659615737857",
-      "address": 327,
+      "address": 323,
       "title": "Mines live or die",
       "author": "Shreyes, Marcos, Michael",
       "description": "Live or die game.",
@@ -9747,7 +9648,7 @@
     },
     {
       "macro": "tt_um_wokwi_462165147286899713",
-      "address": 676,
+      "address": 680,
       "title": "PSI Open IC 2026",
       "author": "S.Hajibaba G.Theidel J.Zhang",
       "description": "Simple UART Transmitter",
@@ -9785,7 +9686,7 @@
     },
     {
       "macro": "tt_um_wokwi_462285560117329921",
-      "address": 900,
+      "address": 904,
       "title": "BCD ID Wowki",
       "author": "Ian Briones Reyes",
       "description": "Circuito convertidor de 4bit BCD a display de 7 segmentos como una peque\u00f1a modificacion del conocido IC 7448, con la diferencia de que este funciona siempre con un 0 en apagado.",
@@ -9823,7 +9724,7 @@
     },
     {
       "macro": "tt_um_wokwi_462290658621740033",
-      "address": 462,
+      "address": 458,
       "title": "IEEE IC Bootcamp Khalifa University",
       "author": "Nuzhat, Ayesha and Umamah",
       "description": "This is a 3-bit reversible comparator",
@@ -9861,7 +9762,7 @@
     },
     {
       "macro": "tt_um_wokwi_462349004652630017",
-      "address": 708,
+      "address": 704,
       "title": "IEEE Logic Locked Reversible 2-Bit ALU",
       "author": "Fawaz Ahmed",
       "description": "Secure 2-Bit Reversible ALU with bijective mapping and Fredkin gate logic locking",
@@ -9899,7 +9800,7 @@
     },
     {
       "macro": "tt_um_wokwi_462595774777167873",
-      "address": 775,
+      "address": 779,
       "title": "Bypass Universal",
       "author": "Joshua Cervantes",
       "description": "Gestor de Bypass Universal",
@@ -9937,7 +9838,7 @@
     },
     {
       "macro": "tt_um_wokwi_463101366305871873",
-      "address": 876,
+      "address": 872,
       "title": "Tiny Laura L",
       "author": "Matt Venn",
       "description": "Set the first 4 inputs to 1010 and see an L on the 7 segment",
@@ -9975,7 +9876,7 @@
     },
     {
       "macro": "tt_um_wokwi_463557428446691329",
-      "address": 132,
+      "address": 136,
       "title": "3Bit_yALU_IEEE_V2",
       "author": "Yousuf SH Mohammad",
       "description": "A 3 bit ALU (multiplication, division, subtraction). It also allows for the switches, RST, and clock signals to pass to the output.",
@@ -10013,7 +9914,7 @@
     },
     {
       "macro": "tt_um_wokwi_464171361019935745",
-      "address": 295,
+      "address": 299,
       "title": "Tiny Tapeout Template Copy",
       "author": "Patryk Ankudowicz ",
       "description": "asd",
@@ -10051,7 +9952,7 @@
     },
     {
       "macro": "tt_um_wokwi_464171399090591745",
-      "address": 301,
+      "address": 718,
       "title": "tiny-tapeout-2026-05-16",
       "author": "Kay",
       "description": "Required",
@@ -10089,7 +9990,7 @@
     },
     {
       "macro": "tt_um_wokwi_464171439964087297",
-      "address": 716,
+      "address": 712,
       "title": "First Silicon",
       "author": "Matthew Schubert",
       "description": ".",
@@ -10127,7 +10028,7 @@
     },
     {
       "macro": "tt_um_wokwi_464171453853527041",
-      "address": 138,
+      "address": 142,
       "title": "Tiny Tapeout Hackaday 2026",
       "author": "Thomas Hornoff",
       "description": "TT Hackaday Lecco 2026",
@@ -10165,7 +10066,7 @@
     },
     {
       "macro": "tt_um_wokwi_464171464939073537",
-      "address": 289,
+      "address": 293,
       "title": "Claire's first Wokwi design",
       "author": "Claire Elliott",
       "description": "Claire's first Wokwi design",
@@ -10203,7 +10104,7 @@
     },
     {
       "macro": "tt_um_wokwi_464171521208810497",
-      "address": 291,
+      "address": 295,
       "title": "Daniel's first chip (Tiny Tapeout)",
       "author": "Daniel Petkovic",
       "description": "Daniels first chip",
@@ -10241,7 +10142,7 @@
     },
     {
       "macro": "tt_um_wokwi_464171612496799745",
-      "address": 803,
+      "address": 807,
       "title": "Tiny Tapeout Exercise",
       "author": "Brett Gibson",
       "description": "Simple 4-bit adder",
@@ -10279,7 +10180,7 @@
     },
     {
       "macro": "tt_um_wokwi_464171864719209473",
-      "address": 136,
+      "address": 140,
       "title": "Everton - Tiny Tapeout Workshop LC26",
       "author": "Everton Ribeiro",
       "description": "8-Channel LED Pattern Sequencer",
@@ -10317,7 +10218,7 @@
     },
     {
       "macro": "tt_um_wokwi_464173578877001729",
-      "address": 718,
+      "address": 714,
       "title": "Tiny Tapeout Template - PJ v2",
       "author": "Paul Johan de Voogd",
       "description": "Noob example",
@@ -10355,7 +10256,7 @@
     },
     {
       "macro": "tt_um_wokwi_464176181065476097",
-      "address": 142,
+      "address": 291,
       "title": "8-bit counter",
       "author": "Iwyil",
       "description": "Simple 8-bit counter with set-able counting amount",
@@ -10393,7 +10294,7 @@
     },
     {
       "macro": "tt_um_wokwi_464176621517795329",
-      "address": 299,
+      "address": 303,
       "title": "Tiny Tapeout Run1",
       "author": "Ricardo",
       "description": "one-two",
@@ -10431,7 +10332,7 @@
     },
     {
       "macro": "tt_um_wokwi_464177144942873601",
-      "address": 293,
+      "address": 297,
       "title": "TinyTapeout_Hackaday_Daniel",
       "author": "Daniel",
       "description": "Test",
@@ -10469,7 +10370,7 @@
     },
     {
       "macro": "tt_um_wokwi_464178459384432641",
-      "address": 801,
+      "address": 805,
       "title": "Tiny Tapeout Template Copy",
       "author": "Juan Manuel",
       "description": "Test",
@@ -10507,7 +10408,7 @@
     },
     {
       "macro": "tt_um_wokwi_464178664603376641",
-      "address": 297,
+      "address": 301,
       "title": "Tiny Tapetest",
       "author": "Ivan Hernandez",
       "description": "16b counter",
@@ -10583,7 +10484,7 @@
     },
     {
       "macro": "tt_um_xeniarose_sbox",
-      "address": 715,
+      "address": 707,
       "title": "AES S-Box / PRESENT",
       "author": "xeniarose",
       "description": "AES forward S-Box circuits, and also PRESENT",
@@ -10621,7 +10522,7 @@
     },
     {
       "macro": "tt_um_yfoong86_chasey",
-      "address": 195,
+      "address": 129,
       "title": "Chasey",
       "author": "Yansi Foong",
       "description": "Control a player in a maze to escape the ghost",
@@ -10659,7 +10560,7 @@
     },
     {
       "macro": "tt_um_youweiterrylu",
-      "address": 992,
+      "address": 930,
       "title": "DMA",
       "author": "Terry Lu",
       "description": "Direct Memory Access module",
@@ -10697,7 +10598,7 @@
     },
     {
       "macro": "tt_um_zed_analog",
-      "address": 197,
+      "address": 193,
       "title": "Analog design",
       "author": "Zedulo",
       "description": "A tri 2 -input AND gate (7408 compatible) and an SR Latch",
