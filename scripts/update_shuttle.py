@@ -45,9 +45,17 @@ def get_repo_config(owner, repo):
 def find_gds_url(owner, repo, commit):
     release = find_release_for_commit(owner, repo, commit)
     if release:
-        for asset in release["assets"]:
-            if asset["name"].endswith(".oas"):
-                return asset["browser_download_url"]
+        # Priority: output OAS > output GDS > OAS > GDS.
+        suffix_priority = (
+            ".output.oas",
+            ".output.gds",
+            ".oas",
+            ".gds",
+        )
+        for suffix in suffix_priority:
+            for asset in release["assets"]:
+                if asset["name"].lower().endswith(suffix):
+                    return asset["browser_download_url"]
     return None
 
 
