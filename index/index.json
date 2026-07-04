@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-07-04T13:24:28.341Z",
+  "updated": "2026-07-04T13:52:00.021Z",
   "shuttles": [
     {
       "id": "tt02",
@@ -292,6 +292,17 @@
       "pdk": "gf180mcuD",
       "tiles": 160,
       "projects": 90
+    },
+    {
+      "id": "ttgf0p3",
+      "name": "Tiny Tapeout GF 0p3",
+      "repo": "https://github.com/TinyTapeout/tinytapeout-gf-0p3",
+      "gds_url": "https://github.com/TinyTapeout/tinytapeout-gf-0p3/releases/download/tapeout-ws2607/tt_gf_wrapper.oas.tt_gf_wrapper.precheck.20260704_102319.output.oas",
+      "rom_data": "shuttle=ttgf0p3\nrepo=TinyTapeout/tinytapeout-gf-0p3\ncommit=30504769\n",
+      "project_gds_url_template": "https://raw.githubusercontent.com/TinyTapeout/tinytapeout-gf-0p3/main/projects/{macro}/{macro}.oas",
+      "pdk": "gf180mcuD",
+      "tiles": 160,
+      "projects": 32
     }
   ]
 }
